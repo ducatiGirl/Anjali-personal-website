@@ -1,0 +1,66 @@
+import React from 'react';
+import './Punyam.css';
+
+const Punyam = () => {
+    return (
+        <div className="punyam-container">
+            {/* The Project Header */}
+            <header className="project-header">
+                <h1>The Punyam Giving Tree</h1>
+                <p className="tagline">A platform that turns good intentions into a visible, growing force for community.</p>
+                
+                <div className="key-info-box">
+                    <p><strong>Project Type:</strong> Passion Project</p>
+                    <p><strong>Role:</strong> Full-Stack Developer & Designer</p>
+                    <p><strong>Tech Stack:</strong> React, Node.js, MongoDB, Styled-Components, Firebase, SQL</p>
+                </div>
+                <div className="cta-buttons">
+                    <a href="https://github.com/ducatiGirl/punyam-giving-tree.git" className="button secondary">View on GitHub</a>
+                </div>
+            </header>
+
+            {/* The Overview: The "What" and "Why" */}
+            <section className="project-section">
+                <h2>The Big Idea: The "What" and the "Why"</h2>
+                <div className="content-block">
+                    <h3>The Problem</h3>
+                    <p>I've always believed that even the smallest good deeds have a ripple effect. The problem is, in our fast-paced world, those acts often go unnoticed. My mission was to change that. I wanted to build a platform that gives a voice to those moments of kindness and shows their collective power.</p>
+                </div>
+                <div className="content-block">
+                    <h3>The Solution</h3>
+                    <p>The Punyam Giving Tree is a web app where users can log their good deeds, and watch as each one adds a new "fruit" to a shared, digital tree. It's a real-time, visual celebration of community spirit, designed to motivate and inspire a culture of giving.</p>
+                </div>
+                <div className="content-block">
+                    <h3>The Goal</h3>
+                    <p>My primary goal was to build a secure, intuitive, and visually engaging tool that transforms the abstract concept of "good deeds" into a concrete, motivating experience.</p>
+                </div>
+            </section>
+
+            {/* My Journey: The "How" */}
+            <section className="project-section">
+                <h2>My Journey: The "How"</h2>
+                <div className="process-phase">
+                    <h3>Phase 1: Dreaming and Designing</h3>
+                    <p>I started with a blank page, sketching out user flows and wireframes. I knew the user experience had to be seamless and intuitive, so I focused on creating a clear journey for logging deeds and watching the tree grow.</p>
+                </div>
+                <div className="process-phase">
+                    <h3>Phase 2: Bringing it to Life</h3>
+                    <p>I chose React for the front end because I wanted a dynamic, responsive user interface. On the back end, I paired Node.js with MongoDB for its flexibility, allowing me to easily handle all the data for user profiles and the "Punyam" log. The real-time "giving tree" visualization was the heart of the project, and I loved using Styled-Components to give it that organic, living feel.</p>
+                </div>
+                <div className="process-phase">
+                    <h3>Phase 3: My Biggest "Aha!" Moment</h3>
+                    <p>The toughest part was making the real-time updates for the tree feel smooth and effortless. At first, every new entry caused a lag, which was completely against the "seamless" experience I was going for. I dove deep into the back end, optimizing the data-fetching logic and refactoring the code. It was a challenging process, but it taught me a crucial lesson about the importance of back-end performance and how every small optimization can make a huge difference in the user experience.</p>
+                </div>
+            </section>
+
+            {/* The Outcome: A Glimpse into the Future */}
+            <section className="project-section">
+                <h2>The Impact: A Glimpse into the Future</h2>
+                <p>I'm incredibly proud to say that the Punyam Giving Tree is now live. It's more than just a piece of software; it's a living testament to the power of shared good deeds. This project not only strengthened my full-stack skills but also gave me a deeper appreciation for how technology can be used to build community and inspire positive change.</p>
+                <p>I'm excited to continue growing this project in the future, with plans to add social sharing features and more advanced "giving" campaigns.</p>
+            </section>
+        </div>
+    );
+};
+
+export default Punyam;
