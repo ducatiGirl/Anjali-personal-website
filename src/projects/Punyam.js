@@ -21,7 +21,7 @@ const Punyam = () => {
                 <h2>The Big Idea: The "What" and the "Why"</h2>
                 <div className="content-block">
                     <h3>The Problem</h3>
-                    <p>I’ve always believed that even the smallest good deeds have a ripple effect. The problem is, in our fast-paced world, those acts often go unnoticed. My mission was to change that. I wanted to build a platform that gives a voice to those moments of kindness and shows their collective power.</p>
+                    <p>I’ve always believed that even the smallest good deeds have a ripple effect. My mission was to build a platform that gives a voice to those moments of kindness and shows their collective power.</p>
                 </div>
                 <div className="content-block">
                     <h3>The Solution</h3>
@@ -37,8 +37,8 @@ const Punyam = () => {
             <section className="project-section">
                 <h2>My Journey: The "How"</h2>
                 <div className="process-phase">
-                    <h3>Phase 1: Dreaming and Designing</h3>
-                    <p>I started with a goal: How would digitizing the giving tree incentivize people to pay. I knew the user experience had to be seamless and intuitive, so I focused on creating a clear journey for claiming wishes and watching the tree ripen.</p>
+                    <h3>Phase 1: Designing</h3>
+                    <p>I started with a question: How would digitizing the giving tree incentivize people to pay? I knew the user experience had to be seamless and intuitive, so I focused on creating a clear journey for claiming wishes and watching the tree ripen.</p>
                 </div>
                 <div className="process-phase">
                     <h3>Phase 2: Bringing it to Life</h3>
