@@ -24,8 +24,8 @@ function Home() {
         {/* Text Section */}
         <div style={{ textAlign: 'left', fontSize: '1.2rem', lineHeight: '1.6' }}>
           <h2>About Me</h2>
-          <p>My name is Anjali Abhilash and I am an incoming freshman at University of Washington in Seattle planning to study Computer Science.</p>
-          <p>I had graduated from Evergreen Valley High School. During my time in high school, I joined a wide variety of clubs and classes such as AP Chemistry and the multi-cultural culinary arts club. I spent majority of my time playing badminton at a national level (68th in the nation)! I also consecutively made it to the state level in my high school team all four years. Additionally, I spent some time as a researcher delving into the intersection between healthcare and computer science.</p>
+          <p>My name is Anjali Abhilash and I am currently a freshman at University of Washington in Seattle planning to study Computer Science.</p>
+          <p>I graduated from Evergreen Valley High School. During my time in high school, I joined a wide variety of clubs and classes such as AP Chemistry and the multi-cultural culinary arts club. I spent majority of my time playing badminton at a national level (68th in the nation)! I also consecutively made it to the state level in my high school team all four years. Additionally, I spent some time as a researcher delving into the intersection between healthcare and computer science.</p>
           <p>At my core, I am a person who enjoys learning and solving problems but I find that I am most passionate when I am applying my skills in computer science to make real-world impact! I am optimistic about computer science's transformative potential to drive innovation and improvement across any field.</p>
           <p>Outside of school, some of my interests include working out, baking, reading, and trying new foods.</p>
           <p><strong>Fun Fact:</strong> I can drive a motorcycle.</p>
