@@ -5,11 +5,11 @@ const Punyam = () => {
         /* Outer wrapper with the updated paper background */
         <div className="w-full flex justify-center bg-[#fff1e5] min-h-screen">
             
-            <div className="max-w-[1200px] w-full px-8 py-12 font-sans leading-relaxed text-[#333] flex flex-col items-center">
+            <div className="max-w-[1200px] w-full px-4 md:px-12 py-8 md:py-12 font-sans leading-relaxed text-[#333] flex flex-col items-center">
                 
                 {/* Header Section */}
                 <header className="text-center pb-8 border-b-2 border-gray-200 w-full">
-                    <h1 className="text-[3.5rem] text-[#222] font-bold mb-2  uppercase ">
+                    <h1 className="text-3xl md:text-[3.5rem] text-[#222] font-bold mb-2 leading-tight uppercase tracking-tight">
                         The Punyam Giving Tree
                     </h1>
                     
