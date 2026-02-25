@@ -1,4 +1,3 @@
-import './App.css';
 import Navbar from './Navbar';
 import Punyam from './projects/Punyam'; // Make sure this is imported
 import Home from './pages/Home';
