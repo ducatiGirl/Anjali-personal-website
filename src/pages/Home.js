@@ -30,8 +30,8 @@ function Home() {
           
           <div className="space-y-4">
             <p>I am currently studying Computer Science at University of Washington in Seattle.</p>
-            <p>I graduated from Evergreen Valley High School. During my time in high school, I joined a wide variety of clubs and classes such as AP Chemistry and the multi-cultural culinary arts club. I spent majority of my time playing badminton at a national level (68th in the nation)! I also consecutively made it to the state level in my high school team all four years. Additionally, I spent some time as a researcher delving into the intersection between healthcare and computer science.</p>
-            <p>At my core, I am a person who enjoys learning and solving problems but I find that I am most passionate when I am applying my skills in computer science to make real-world impact!</p>
+            <p> I thrive at the intersection of complex problem-solving and real-world impact. Whether I’m developing full-stack applications or researching the future of healthcare technology, I’m driven by the goal of building tools that matter.</p>
+            <p>When I’m not coding, you’ll find me on the badminton court (where I once ranked 68th nationally), experimenting with new recipes in the kitchen, or exploring the Seattle food scene.</p>
             <p>Outside of school, some of my interests include working out, baking, reading, and trying new foods.</p>
             <p className="pt-2"><strong>Fun Fact:</strong> I learned how to drive a motorcycle at the age of 16 before I could even drive a car.</p>
           </div>
