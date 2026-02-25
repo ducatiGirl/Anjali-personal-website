@@ -30,6 +30,14 @@ export default function Navbar() {
                   Punyam
                 </Link>
               </li>
+              <li>
+                <Link 
+                  to="/projects/iCare" 
+                  className="block py-3 px-4 text-[13px] font-bold uppercase text-[#333] no-underline hover:bg-[#f2e5d9] transition-colors"
+                >
+                  iCare
+                </Link>
+              </li>
             </ul>
           </li>
         </ul>

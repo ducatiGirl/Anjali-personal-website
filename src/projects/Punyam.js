@@ -2,22 +2,19 @@ import React from 'react';
 
 const Punyam = () => {
     return (
-        /* The outer wrapper handles the pink background and centering */
+        /* Outer wrapper with the updated paper background */
         <div className="w-full flex justify-center bg-[#fff1e5] min-h-screen">
             
-            {/* Expanded max-width from 900px to 1200px for a wider look */}
             <div className="max-w-[1200px] w-full px-8 py-12 font-sans leading-relaxed text-[#333] flex flex-col items-center">
                 
-                {/* The Project Header - Added mx-auto to ensure it stays centered */}
+                {/* Header Section */}
                 <header className="text-center pb-8 border-b-2 border-gray-200 w-full">
-                    <h1 className="text-[3.5rem] text-[#222] font-bold mb-2 leading-tight">
+                    <h1 className="text-[3.5rem] text-[#222] font-bold mb-2  uppercase ">
                         The Punyam Giving Tree
                     </h1>
-                    <p className="text-[1.3rem] text-[#666] italic mb-6">
-                        A platform that turns good intentions into a visible, growing force for community.
-                    </p>
                     
-                    {/* Key Info Box - Added mx-auto to center the box itself */}
+                    
+                    {/* Your Key Info Box */}
                     <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl inline-block text-left mt-6 shadow-sm border border-gray-100 mx-auto">
                         <p className="my-1"><strong>Project Type:</strong> Passion Project</p>
                         <p className="my-1"><strong>Role:</strong> Full-Stack Developer & Designer</p>
@@ -28,57 +25,51 @@ const Punyam = () => {
                         <a href="https://github.com/ducatiGirl/punyam-giving-tree.git" 
                            target="_blank" 
                            rel="noreferrer"
-                           className="inline-block px-8 py-3 bg-[#6c757d] hover:bg-[#545b62] text-white no-underline rounded-md transition-colors font-medium">
+                           className="inline-block px-8 py-3 bg-[#0f5499] hover:bg-[#0d4680] text-white no-underline rounded-md transition-colors font-medium">
                             View on GitHub
                         </a>
                     </div>
                 </header>
 
-                {/* Main Content Body - Added max-w-4xl and mx-auto to keep text readable and centered */}
+                {/* Main Content Body */}
                 <div className="mt-12 w-full max-w-4xl mx-auto">
+                    
+                    {/* The Mission Section */}
                     <section className="py-8 border-b border-gray-200">
-                        <h2 className="text-[2.2rem] text-[#444] font-bold mb-10 text-center">
-                            The Big Idea: The "What" and the "Why"
+                        <h2 className="text-[2.2rem] text-[#222] font-bold mb-6 text-center uppercase tracking-wide">
+                            The Mission
                         </h2>
-                        
-                        <div className="space-y-12 text-left">
-                            <div>
-                                <h3 className="text-[1.6rem] text-[#333] border-b-2 border-gray-300 inline-block pb-1 mb-4">
-                                    The Problem
-                                </h3>
-                                <p className="text-xl">I've always believed that even the smallest good deeds have a ripple effect. The problem is, in our fast-paced world, those acts often go unnoticed. My mission was to change that. I wanted to build a platform that gives a voice to those moments of kindness and shows their collective power.</p>
+                        <p className="text-xl text-center leading-relaxed text-gray-700">
+                            Punyam is a community driven non profit organization designed to help the underprivileged children in India. I built this digital platform to transform traditional charitable giving into a interactive, visual experience. By digitizing the Giving Tree concept, we fulfill specific wishlists ranging from basic necessities to school supplies—connecting the community directly to the needs of children who might otherwise be overlooked.
+                        </p>
+                    </section>
+
+                    {/* My Impact Section */}
+                    <section className="py-12 border-b border-gray-200">
+                        <h2 className="text-[2.2rem] text-[#222] font-bold mb-10 text-center uppercase tracking-wide">
+                            My Impact
+                        </h2>
+                        <div className="space-y-8 text-left">
+                            <div className="flex flex-col">
+                                <span className="text-[1.4rem] font-bold text-[#005f54] border-b-2 border-[#005f54] inline-block w-fit mb-3">Full-Stack Architecture</span>
+                                <p className="text-lg">Designed and implemented a scalable end-to-end system using <strong>React</strong> and <strong>Node.js</strong> to manage dynamic wishlists and real-time donation tracking.</p>
                             </div>
-                            
-                            <div>
-                                <h3 className="text-[1.6rem] text-[#333] border-b-2 border-gray-300 inline-block pb-1 mb-4">
-                                    The Solution
-                                </h3>
-                                <p className="text-xl">The Punyam Giving Tree is a web app where users can log their good deeds, and watch as each one adds a new "fruit" to a shared, digital tree. It's a real-time, visual celebration of community spirit, designed to motivate and inspire a culture of giving.</p>
+                            <div className="flex flex-col">
+                                <span className="text-[1.4rem] font-bold text-[#005f54] border-b-2 border-[#005f54] inline-block w-fit mb-3">Visually Appealing Design</span>
+                                <p className="text-lg">Engineered a custom Giving Tree visualization by rendering child stories and specific needs as digital fruits on a shared tree, I transformed a static donation pipeline into an emotional, visual connection. This design directly contributed to increased engagement, making the simple act of giving feel like a tangible, growing force for good.</p>
+                            </div>
+                            <div className="flex flex-col">
+                                <span className="text-[1.4rem] font-bold text-[#005f54] border-b-2 border-[#005f54] inline-block w-fit mb-3">Dynamic Data</span>
+                                <p className="text-lg">Integrated <strong>MongoDB</strong> and <strong>SQL</strong> to maintain a reliable, searchable log of community deeds, ensuring high performance for sorting and distributing gifts to the correct recipients.</p>
+                            </div>
+                            <div className="flex flex-col">
+                                <span className="text-[1.4rem] font-bold text-[#005f54] border-b-2 border-[#005f54] inline-block w-fit mb-3">Improvement in Funds + Social Good</span>
+                                <p className="text-lg">By migrating from a manual CSV process to a centralized database and real-time UI, I increased total contributions by over 350% (from ~$200 to over $900 in a single event) by streamlining the donor journey and preventing the loss of donor interest due to manual bottlenecks.</p>
                             </div>
                         </div>
                     </section>
 
-                    <section className="py-12">
-                        <h2 className="text-[2.2rem] text-[#444] font-bold mb-10 text-center">
-                            My Journey: The "How"
-                        </h2>
-
-                        <div className="space-y-12 text-left">
-                            <div>
-                                <h3 className="text-[1.6rem] text-[#333] border-b-2 border-gray-300 inline-block pb-1 mb-4">
-                                    Phase 1: Dreaming and Designing
-                                </h3>
-                                <p className="text-xl">I started with a blank page, sketching out user flows and wireframes. I knew the user experience had to be seamless and intuitive, so I focused on creating a clear journey for logging deeds and watching the tree grow.</p>
-                            </div>
-                            
-                            <div>
-                                <h3 className="text-[1.6rem] text-[#333] border-b-2 border-gray-300 inline-block pb-1 mb-4">
-                                    Phase 2: Bringing it to Life
-                                </h3>
-                                <p className="text-xl">I chose React for the front end because I wanted a dynamic, responsive user interface. On the back end, I paired Node.js with MongoDB for its flexibility, allowing me to easily handle all the data for user profiles and the Punyam log.</p>
-                            </div>
-                        </div>
-                    </section>
+                    
                 </div>
             </div>
         </div>
