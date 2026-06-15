@@ -15,8 +15,9 @@ const KKDS = () => {
                     
                     {/* Your Key Info Box */}
                     <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl inline-block text-left mt-6 shadow-sm border border-gray-100 mx-auto">
-                        <p className="my-1"><strong>Project Type:</strong> Web Impact — 🥇 Winner: Best Implementation</p>
-                        <p className="my-1"><strong>Role:</strong> Lead Web Developer & Collaborator</p>
+                        <p className="my-1"><strong>Project Type:</strong>Full-Stack Web Development as a part of Web Impact Club</p>
+                        <p className="my-1"><strong>Role:</strong> Lead Web Developer</p>
+                        <p className="my-1"><strong>Awards:</strong> Winner for Best Implementation</p>
                         <p className="my-1"><strong>Tech Stack:</strong> React, Tailwind CSS, Sanity CMS, Figma, Git & Version Control, Vercel</p>
                     </div>
 
