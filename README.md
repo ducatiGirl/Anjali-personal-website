@@ -1,9 +1,8 @@
 # Personal Portfolio Website
 
-> My personal corner of the internet. Built to showcase my projects, technical journey, and experience.
+> My personal portfolio built to showcase my projects, technical journey, and experience.
 
-[![Live Site](https://img.shields.io/badge/Live-Visit%20Website-brightgreen)]([https://yourwebsite.com](https://sparkling-cajeta-6495b2.netlify.app/))
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+Can be seen at (https://sparkling-cajeta-6495b2.netlify.app/))
 
 ---
 
