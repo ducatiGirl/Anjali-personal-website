@@ -38,6 +38,14 @@ export default function Navbar() {
                   iCare
                 </Link>
               </li>
+              <li>
+                <Link 
+                  to="/projects/kkds" 
+                  className="block py-3 px-4 text-[13px] font-bold uppercase text-[#333] no-underline hover:bg-[#f2e5d9] transition-colors"
+                >
+                  Kalamandapam Kuchipudi Dance School
+                </Link>
+              </li>
             </ul>
           </li>
         </ul>
