@@ -1,6 +1,12 @@
 import React from 'react';
 import img from '../Anjali.jpg';
 
+export function getYearsOfExperience(startYear) {
+  const currentYear = new Date().getFullYear();
+  if (!startYear || startYear > currentYear) return 0;
+  return currentYear - startYear;
+}
+
 function Home() {
   return (
     /* md:min-h-[calc(100vh-64px)]: Only forces centering on desktop. 
@@ -35,7 +41,7 @@ function Home() {
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#990f3d]">a Full-stack developer</h2>
           
           <div className="space-y-4 text-gray-800">
-            <p>I am currently studying Computer Science at the University of Washington.</p>
+            <p>I am currently studying Computer Science at the University of Washington (coding for over {getYearsOfExperience(2021)} years).</p>
             <p>I thrive at the intersection of complex problem solving and real-world impact. Whether I’m developing full-stack applications or researching the future of healthcare technology, I’m driven by the goal of building tools that matter.</p>
             <p>When I’m not coding, you’ll find me on the badminton court (ranked 68th nationally), experimenting with new recipes, or exploring the Seattle food scene.</p>
             <p className="pt-2 text-[1rem] md:text-[1.1rem]">
